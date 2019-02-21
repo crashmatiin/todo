@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: black;
+  height: 80px;
+  color: deepskyblue;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-flow: column nowrap;
+  color: deepskyblue;
+  background: linear-gradient(to top right, #71AE51 1%, #F3BA4B 25%, #E6BA4B 40%, #CF4845 60%,
+   #8B4593 80%, #449CD7 100%);
+}
+
+.user{
+  height: 150px;
+  width: 150px;
+  flex-flow: column nowrap;
+}
+
+.footer {
+  background: black;
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+}
+
+.tasks{
+  flex-flow: column nowrap;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
